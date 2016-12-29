@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="input_image_url_hint">Input image url</string>
+    <string name="load">Load</string>
+    <string name="invalid_url">Invalid url</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="ui_show_button">Show more</string>
+    <string name="count">Count</string>
+    <string name="start">Start</string>
+</resources>

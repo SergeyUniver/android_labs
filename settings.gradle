@@ -1,0 +1,1 @@
+include ':app', ':lab2', ':lab3', ':commonlib', ':lab4', ':lab5'

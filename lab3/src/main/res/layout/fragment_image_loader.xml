@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_back">
+
+    <Button
+        android:id="@+id/load_button"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/load"/>
+
+    <EditText
+        android:id="@+id/image_url_tv"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/load_button"
+        android:hint="@string/input_image_url_hint"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/image_url_tv">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:visibility="gone"
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

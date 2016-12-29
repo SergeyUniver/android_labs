@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab4</string>
+
+    <string-array name="aggregate_state">
+        <item>Select all</item>
+        <item>Sum</item>
+        <item>Min</item>
+        <item>Max</item>
+        <item>Count</item>
+    </string-array>
+
+    <string-array name="sort_by_state">
+        <item>Name</item>
+        <item>Population</item>
+        <item>Region</item>
+    </string-array>
+
+</resources>

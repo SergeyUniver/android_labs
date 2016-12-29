@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cool game</string>
+    <string name="input_text_hint">Input number (0..100)</string>
+    <string name="common_error_text">Ohh...  :c</string>
+    <string name="guess_button_text">Guess</string>
+    <string name="default_number_message">Let\'s try guess number ;)</string>
+    <string name="success_dialog_title">You\'re amazing!</string>
+    <string name="success_dialog_message">Your score: %d\nLet\'s try again</string>
+    <string name="success_dialog_positive_button">Yes, sure</string>
+    <string name="success_dialog_negative_button">No, thanks</string>
+
+    <string-array name="number_type_message">
+        <item>Great! It\'s a right number</item>
+        <item>Number is toooo big</item>
+        <item>Number is tooo big</item>
+        <item>Number is too big</item>
+        <item>Almost done</item>
+        <item>Number is too small</item>
+        <item>Number is tooo small</item>
+        <item>Number is toooo small</item>
+        <item>Please, input number</item>
+        <item>Number must be from 0 to 100(integer)</item>
+        <item></item>
+    </string-array>
+</resources>

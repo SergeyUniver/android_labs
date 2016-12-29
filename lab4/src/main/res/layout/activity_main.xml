@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:background="@color/colorPrimary"
+        android:text="Show"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/add_record"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Add record"
+        android:layout_margin="20dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/change_last_rec"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Change last record"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/show_city_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Show city"
+        android:textColor="@color/white" />
+</LinearLayout>

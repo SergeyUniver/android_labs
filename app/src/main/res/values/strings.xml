@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="title_activity_initial">InitialActivity</string>
+    <string name="dictionary_generated_message">Please wait. Dictionary is generated</string>
+</resources>
